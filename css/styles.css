@@ -13,6 +13,7 @@ h2 {
 
   font-size: 1.7em;
   text-align: center;
+    /**background-color: grey;**/
 }
 
 #topPage {
@@ -47,6 +48,7 @@ p {
 #nav-list{
 	font-size: 1.8em;
 	text-align: center;
+	  
 }
 .navbar-brand {
   padding-top: 10px;
@@ -69,6 +71,7 @@ p {
 /* BOTTONI */
 #nav-list {
   margin-top: 10px;
+  
 }
 #nav-list a {
   color: gray;
@@ -84,15 +87,20 @@ p {
 /* riga content della pagina */
 #tableRow{
 	margin-left: 5px;
+	
 }
 /* Simple Responsive Framework. */
 
 .column {
 	align: center;
 	width: 100%;
-	  /**background-color: grey;**/
+	 background-color: grey;
 }
 .columnText{
+	text-align: center-left;
+	width: 95%;
+}
+.columnTitle{
 	text-align: center-left;
 	width: 100%;
 }
@@ -107,5 +115,4 @@ p {
 	margin-left: 94%;
 
 }
-
 
