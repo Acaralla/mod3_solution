@@ -1,1 +1,110 @@
+/********** Common styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  font-family: Helvetica;
+  color: black;
+
+}
+
+h2 {
+
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#topPage {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 10px;
+  text-align: left;
+  height: 30%;
+  width: 100%;
+  background-color: #6f6;
+}
+
+p {
+  background-color: grey;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  margin-left: 2%;
+}
+
+.content{
+  margin-top: 10px;
+  margin-botton: 10px;
+  margin-left: 5px;
+  width: 96%;
+}
+
+
+/* MENU */
+#nav-list{
+	font-size: 1.8em;
+	text-align: center;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  margin-left: 5px;
+  margin-left: 10px;
+  font-size: 1.5em;
+
+  font-weight: bold;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* BOTTONI */
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: gray;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: blue;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* riga content della pagina */
+#tableRow{
+	margin-left: 5px;
+}
+/* Simple Responsive Framework. */
+
+.column {
+	align: center;
+	width: 100%;
+}
+.columnText{
+	text-align: center-left;
+	width: 100%;
+}
+.row{
+	width: 95%;
+
+	
+}
+
+/* link top page */
+.link{
+	margin-left: 94%;
+
+}
+
 
