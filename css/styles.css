@@ -90,6 +90,7 @@ p {
 .column {
 	align: center;
 	width: 100%;
+	  background-color: grey;
 }
 .columnText{
 	text-align: center-left;
